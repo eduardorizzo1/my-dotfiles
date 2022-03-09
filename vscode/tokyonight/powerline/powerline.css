@@ -6,20 +6,21 @@
 
 /* Themes */
 
-/* Dracula */
+/* Tokyonight */
 body {
-    --powerline-mode-fg: #00005f;
-    --powerline-normal-bg: #9c54ff;
-    --powerline-insert-bg: #50fa7b;
-    --powerline-replace-bg: #af0000;
-    --powerline-visual-bg: #f1fa8c;
-    --powerline-inner-fg: #ffffff;
-    --powerline-inner-bg: #191a21;
+    --powerline-mode-fg: #1D202F;
+    --powerline-normal-bg: #7AA2F7;
+    --powerline-insert-bg: #9ECE6A;
+    --powerline-replace-bg: #F7768E;
+    --powerline-visual-bg: #BB9AF7;
+    --powerline-inner-fg: #A9B1D6;
+    --powerline-inner-bg: #1F2335;
     --powerline-inner-bg-hl: #44475a;
-    --powerline-second-segment-fg: #ffffff;
     --powerline-second-segment-bg: rgba(0, 0, 0, 0.5);
-    --powerline-separator: #6272a4;
-    --powerline-vim-command-line: #ff79c6;
+    /* --powerline-second-segment-bg: #252535; */
+    --powerline-second-segment-fg: #A9B1D6;
+    --powerline-separator: #A9B1D6;
+    --powerline-vim-command-line: #A9B1D6;
     --powerline-mode-weight: bold;
 }
 
@@ -410,7 +411,7 @@ footer.statusbar {
 .statusbar-item.left#vscodevim\.vim\.primary[aria-label^="/"],
 .statusbar-item.left#vscodevim\.vim\.primary[aria-label^="?"],
 .statusbar-item.right#vscodevim\.vim\.primary {
-    font-family: "MesloLGS NF", Consolas, monospace;
+    font-family: "Ubuntu", Consolas, monospace;
     color: var(--powerline-vim-command-line);
 }
 
@@ -427,13 +428,13 @@ footer.statusbar {
 }
 
 .monaco-workbench .part > .content .folder-icon {
-    font-size: 0.9rem !important; 
+    font-size: 1rem !important; 
     font-weight: bold;
-    color: #7d83d4;
+    color: #7AA2F7;
 }
 
 .monaco-workbench .part > .content .file-icon {
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
     font-weight: normal;
 }
 
@@ -455,5 +456,19 @@ footer.statusbar {
     border-color: #00ffff; 
     color: #000000; 
 } */
+/* .tab.dirty { */
+/* 		color: #fff; */
+/*     background-origin: border-box; */
+/*     background-image: repeating-linear-gradient( */
+/*       45deg, */
+/*       transparent, */
+/*       transparent 8px, */
+/*       #465298 9px */
+/*     ); */
+/* } */
+/* .tab.dirty .close-editor-action { */
+/*   background: #465298 !important; /* here could be some inline image*/ */
+/*   border-radius: 50%; */
+/* } */
 
 
