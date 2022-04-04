@@ -8,13 +8,13 @@
 
 /* Dracula */
 body {
-    --powerline-mode-fg: #00005f;
-    --powerline-normal-bg: #9c54ff;
+    --powerline-mode-fg: #bd93f9;
+    --powerline-normal-bg: #bd93f9;
     --powerline-insert-bg: #50fa7b;
-    --powerline-replace-bg: #af0000;
+    --powerline-replace-bg: #ff5555;
     --powerline-visual-bg: #f1fa8c;
     --powerline-inner-fg: #ffffff;
-    --powerline-inner-bg: #191a21;
+    --powerline-inner-bg: #21222c;
     --powerline-inner-bg-hl: #44475a;
     --powerline-second-segment-fg: #ffffff;
     --powerline-second-segment-bg: rgba(0, 0, 0, 0.5);
@@ -427,14 +427,21 @@ footer.statusbar {
 }
 
 .monaco-workbench .part > .content .folder-icon {
-    font-size: 0.9rem !important; 
+    font-size: 1rem !important; 
     font-weight: bold;
-    color: #7d83d4;
+    color: #8090c2;
 }
 
 .monaco-workbench .part > .content .file-icon {
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
     font-weight: normal;
+}
+
+.monaco-editor .cursor {
+    background: linear-gradient(to bottom, #465298,  #fff);
+    box-shadow: 0 0 2px #00ffff;
+    border-color: #00ffff; 
+    color: #000000; 
 }
 
 /* Cursor Gradient */

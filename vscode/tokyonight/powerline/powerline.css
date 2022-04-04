@@ -439,6 +439,12 @@ footer.statusbar {
 }
 
 /* Cursor Gradient */
+.monaco-editor .cursor {
+    background: linear-gradient(to bottom, #465298,  #fff);
+    box-shadow: 0 0 2px #00ffff;
+    border-color: #00ffff; 
+    color: #000000; 
+}
 
 /* .monaco-editor .cursor { 
     background: linear-gradient(to bottom, #ff00ff,  #b200ff);
@@ -456,12 +462,6 @@ footer.statusbar {
     color: #241b2f; 
 } */
 
-.monaco-editor .cursor {
-    background: linear-gradient(to bottom, #465298,  #fff);
-    box-shadow: 0 0 2px #00ffff;
-    border-color: #00ffff; 
-    color: #000000; 
-}
 /* .tab.dirty { */
 /* 		color: #fff; */
 /*     background-origin: border-box; */
