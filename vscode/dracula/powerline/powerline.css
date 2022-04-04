@@ -8,7 +8,7 @@
 
 /* Dracula */
 body {
-    --powerline-mode-fg: #bd93f9;
+    --powerline-mode-fg: #000000;
     --powerline-normal-bg: #bd93f9;
     --powerline-insert-bg: #50fa7b;
     --powerline-replace-bg: #ff5555;
