@@ -437,27 +437,28 @@ footer.statusbar {
     font-weight: normal;
 }
 
+/* Cursor Gradient */
+
+/* .monaco-editor .cursor { */
+/*     background: linear-gradient(to bottom, #465298,  #fff); */
+/*     box-shadow: 0 0 2px #00ffff; */
+/*     border-color: #00ffff;  */
+/*     color: #000000;  */
+/* } */
+
+
 .monaco-editor .cursor {
-    background: linear-gradient(to bottom, #465298,  #fff);
+    background: linear-gradient(to bottom right, #fff,  #0000ff);
     box-shadow: 0 0 2px #00ffff;
     border-color: #00ffff; 
-    color: #000000; 
+    color: #fff; 
 }
 
-/* Cursor Gradient */
-
-/* .monaco-editor .cursor { 
-    background: linear-gradient(to bottom, #ff00ff,  #b200ff);
-    box-shadow: 0 0 5px #00ffff;
-    border-color: #00ffff; 
-    color: #000000; 
-} */
-
 
 /* Cursor Gradient */
 
 /* .monaco-editor .cursor { 
-    background: linear-gradient(to bottom, #ff00ff,  #b200ff);
+    background: linear-gradient(to bottom, #0000ff,  #b200ff);
     box-shadow: 0 0 5px #00ffff;
     border-color: #00ffff; 
     color: #000000; 
