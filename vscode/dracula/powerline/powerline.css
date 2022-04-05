@@ -429,7 +429,7 @@ footer.statusbar {
 .monaco-workbench .part > .content .folder-icon {
     font-size: 1rem !important; 
     font-weight: bold;
-    color: #8090c2;
+		color: #6272a4;
 }
 
 .monaco-workbench .part > .content .file-icon {
@@ -439,29 +439,8 @@ footer.statusbar {
 
 /* Cursor Gradient */
 
-/* .monaco-editor .cursor { */
-/*     background: linear-gradient(to bottom, #465298,  #fff); */
-/*     box-shadow: 0 0 2px #00ffff; */
-/*     border-color: #00ffff;  */
-/*     color: #000000;  */
-/* } */
-
-
 .monaco-editor .cursor {
-    background: linear-gradient(to bottom right, #fff,  #0000ff);
-    box-shadow: 0 0 2px #00ffff;
-    border-color: #00ffff; 
-    color: #fff; 
+    background: linear-gradient(to bottom right, #fff, #422fa3, #0000ff);
+    /* box-shadow: 0 0 1px #00ffff; */
+    /* border-color: #fff;  */
 }
-
-
-/* Cursor Gradient */
-
-/* .monaco-editor .cursor { 
-    background: linear-gradient(to bottom, #0000ff,  #b200ff);
-    box-shadow: 0 0 5px #00ffff;
-    border-color: #00ffff; 
-    color: #000000; 
-} */
-
-
