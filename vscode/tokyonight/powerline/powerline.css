@@ -1,12 +1,3 @@
-/*
- * vscode-powerline/powerline.css
- *
- * Powerline for VS Code, enhanced for VSCodeVim
- */
-
-/* Themes */
-
-/* Tokyonight */
 body {
     --powerline-mode-fg: #1D202F;
     --powerline-normal-bg: #7AA2F7;
@@ -437,44 +428,3 @@ footer.statusbar {
     font-size: 1rem !important;
     font-weight: normal;
 }
-
-/* Cursor Gradient */
-.monaco-editor .cursor {
-    background: linear-gradient(to bottom, #465298,  #fff);
-    box-shadow: 0 0 2px #00ffff;
-    border-color: #00ffff; 
-    color: #000000; 
-}
-
-/* .monaco-editor .cursor { 
-    background: linear-gradient(to bottom, #ff00ff,  #b200ff);
-    box-shadow: 0 0 5px #00ffff;
-    border-color: #00ffff; 
-    color: #000000; 
-} */
-
-
-/* Cursor Gradient */
-/* .monaco-editor .cursor { 
-    background: linear-gradient(to bottom, #8a2dc0,  #fc28a8);
-    box-shadow: 0 0 5px #fc199a;
-    border-color: #8a2dc0; 
-    color: #241b2f; 
-} */
-
-/* .tab.dirty { */
-/* 		color: #fff; */
-/*     background-origin: border-box; */
-/*     background-image: repeating-linear-gradient( */
-/*       45deg, */
-/*       transparent, */
-/*       transparent 8px, */
-/*       #465298 9px */
-/*     ); */
-/* } */
-/* .tab.dirty .close-editor-action { */
-/*   background: #465298 !important; /* here could be some inline image*/ */
-/*   border-radius: 50%; */
-/* } */
-
-
