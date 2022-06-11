@@ -485,7 +485,7 @@ footer.statusbar {
 .statusbar-item.left#vscodevim\.vim\.primary[aria-label^="/"],
 .statusbar-item.left#vscodevim\.vim\.primary[aria-label^="?"],
 .statusbar-item.right#vscodevim\.vim\.primary {
-  font-family: "MesloLGS NF", Consolas, monospace;
+  font-family: "Ubuntu", Consolas, monospace;
   color: var(--powerline-vim-command-line);
 }
 
@@ -509,4 +509,12 @@ footer.statusbar {
 .monaco-workbench .part > .content .file-icon {
     font-size: 0.9rem !important;
     font-weight: normal;
+}
+
+
+.monaco-editor .cursor {
+    background: linear-gradient(to bottom, #465298,  #fff);
+    box-shadow: 0 0 2px #00ffff;
+    border-color: #00ffff; 
+    color: #000000; 
 }

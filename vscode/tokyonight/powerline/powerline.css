@@ -419,12 +419,19 @@ footer.statusbar {
 }
 
 .monaco-workbench .part > .content .folder-icon {
-    font-size: 1rem !important; 
+    font-size: 0.9rem !important; 
     font-weight: bold;
     color: #7AA2F7;
 }
 
 .monaco-workbench .part > .content .file-icon {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     font-weight: normal;
+}
+
+.monaco-editor .cursor {
+    background: linear-gradient(to bottom, #465298,  #fff);
+    box-shadow: 0 0 2px #00ffff;
+    border-color: #00ffff; 
+    color: #000000; 
 }
