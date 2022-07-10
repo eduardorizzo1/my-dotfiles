@@ -513,8 +513,8 @@ footer.statusbar {
 
 
 .monaco-editor .cursor {
-    background: linear-gradient(to bottom, #465298,  #fff);
-    box-shadow: 0 0 2px #00ffff;
-    border-color: #00ffff; 
+    background: linear-gradient(to bottom right, #00ffff,  #fff);
+    box-shadow: 0 0 2px #ff79c6;
+    border-color: #bd93f9; 
     color: #000000; 
 }
