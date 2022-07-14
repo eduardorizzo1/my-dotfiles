@@ -10,7 +10,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:~/android-studio/bin
-export ZSH="/home/eduardo/.oh-my-zsh"
+export PATH=$PATH:~/.cargo/bin
+export ZSH="$HOME/.oh-my-zsh"
 
 #ZSH_THEME="spaceship"
 #ZSH_THEME="pure"
@@ -71,3 +72,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+echo 'export PATH="$PATH:$HOME/bin"' >>~/.zshrcexport PATH="$PATH:$HOME/bin"export PATH=$PATH:$HOME/.spicetify
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
